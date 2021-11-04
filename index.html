@@ -1,8 +1,29 @@
 <html lang="en">
     
     <head>
+	<title>Flex Box</title>
+    <style>
+#main-aside-wrapper {
+  flex-direction: row;
+  display: flex;
+}
+#main-aside-wrapper main, #main-aside-wrapper aside {
+  background-color: #ddd;
+  margin: 10px;
+  padding: 10px;
+}
+#main-aside-wrapper aside {
+  flex: 1;
+  order: 1;
+}
+#main-aside-wrapper main {
+  flex: 3;
+  order: 2;
+}
+   </style>    
+	    
       <meta charset="utf-8">
-      <title>Задание 4</title>
+      <title>Задание 2</title>
        <link rel="stylesheet" href="style.css">
     </head>
     
@@ -12,7 +33,7 @@
           <div class="struct">
       			<div id="igh">
       				<img id="logo" src="https://berserkon.com/images/html-transparent-language-2.png?"  alt="">
-      				<h1 id="txt">Сайт HTML WEB4</h1>
+      				<h1 id="txt">Сайт HTML WEB3</h1>
       			</div>
             </div>
       		</div>
